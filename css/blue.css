@@ -1,0 +1,112 @@
+#wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#login-title
+{
+	background-color: #4F94CD  ;
+	float:right;
+	margin:0px;
+	width:100%;
+	text-align:center;
+	z-index:1;
+}
+
+.clear {
+    clear:both;
+}
+
+select, input {
+	color: #363636;
+}
+
+body {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-image:url('../img/gradient2.png');
+	background-repeat:repeat-x;
+	margin: 0px;
+}
+
+/*
+body {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-image:url('../img/gradient2.png');
+	background-repeat:repeat-x;
+}	
+	
+body {
+	background-image:url('../img/logo_imp_01.jpg');
+	background-repeat:no-repeat;
+	background-position:right top;
+
+}
+*/
+
+a {text-decoration:none}
+
+a:link {color:#4F94CD  ;}      /* unvisited link */
+a:visited {color:#4F94CD  ;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {color:#4F94CD  ;}  /* selected link */
+
+ul 
+{
+list-style-image:url('../img/point_01.gif');
+}
+
+#customers
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+/*width:50%;*/
+border-collapse:collapse;
+}
+#customers td, #customers th 
+{
+font-size:0.9em;
+border:1px solid #4F94CD  ;
+padding:3px 7px 2px 7px;
+}
+
+p
+{
+font-size:0.9em;
+border:1px solid #4F94CD  ;
+padding:3px 7px 2px 7px;
+}
+
+#customers th 
+{
+font-size:1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#4F94CD  ;
+color:#ffffff;
+}
+#customers tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+
+.ui-widget {
+	font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
+	font-size: 13px;
+}        
+
+.ui-button{ 
+	font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
+	font-size: 12px;
+}
+.ui-button-text-only .ui-button-text { 
+padding: .1em .6em .2em;
+}
+
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+	font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
+	font-size: 12px;
+}

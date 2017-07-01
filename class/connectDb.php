@@ -6,8 +6,8 @@
   
 		private $host = 'localhost';
 		private $user = 'root';
-		private $pass = 'kgialmleesr';
-		private $name = 'imperanet';
+		private $pass = 'ksystem2018';
+		private $name = 'ksystem';
 
 		// The db connection is established in the private constructor.
 		private function __construct()
